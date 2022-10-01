@@ -17,5 +17,6 @@ public class isEven {
 
         int testNumber = myScanner.nextInt();
         isNumEven(testNumber);
+        myScanner.close();
     }
 }
