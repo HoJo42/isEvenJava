@@ -22,13 +22,10 @@ public class isEven {
                 int testNumber = myScanner.nextInt();
                 isNumEven(testNumber);
             } catch (Exception e) {
+                myScanner.close();
                 break;
             }
-            String exitCase = myScanner.nextLine();
-            if (exitCase.toLowerCase() == "exit"){
             
-            i = false;
-            }
         }
     }
 }
